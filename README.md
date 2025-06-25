@@ -1,4 +1,5 @@
 # ✅ Desafio: Lista de Tarefas (To-Do List) com HTML, CSS e JavaScript
+Desafio 1 do Copilot (do copilot para mim)
 
 ## 🎯 Objetivo
 Criar uma aplicação web onde o usuário pode adicionar, visualizar, marcar como concluída e remover tarefas. Tudo salvo no `localStorage` (navegador).
