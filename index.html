@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lista de Tarefas - To Do</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Lista de Tarefas - To Do</h1>
+    <main>
+      <form class="form">
+        <div class="add-todo">
+          <textarea id="to-do" class="to-do" placeholder="Digite sua tarefa..." required></textarea>
+          <button class="submit" type="submit">+</button>
+        </div>
+      </form>
+
+      <div class="filtro">
+        <label for="filtro-select">Filtrar:</label>
+        <select id="filtro-select">
+          <option value="todas">Todas</option>
+          <option value="pendentes">Pendentes</option>
+          <option value="concluidas">Concluídas</option>
+        </select>
+      </div>
+
+      <ul class="todo-list">
+        <li class="tarefa-para-fazer">
+          <button type="button" class="remove-btn">🗑️</button>
+          <p>Aqui fica a tarefa para fazer</p>
+        </li>
+      </ul>
+    </main>
+
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
